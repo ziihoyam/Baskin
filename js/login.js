@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $('.bt_login').hover(function(){
+        $('.bt_login').css('background-color','#214489');
+    },function(){
+        $('.bt_login').css('background-color','#e01983');
+    })
+})
+$(document).ready(function(){
+    $('.bt_kakao').hover(function(){
+        $('.bt_kakao').css('background-color','#ddd');
+    },function(){
+        $('.bt_kakao').css('background-color','#feee37');
+    })
+})

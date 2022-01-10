@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+/* *{
+    font-family: 'Pretendard-Regular';
+} */
+a{text-decoration: none;}
+li{
+    list-style-type: none;
+}
+ul{
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+    background:linear-gradient(#f154a8,#e01983) no-repeat;
+    background-size: cover;
+    
+}
+#login{
+    margin-top: 50px;
+}
+#logo{
+    position:relative;
+    top:20px
+}
+.login_box{
+    margin:0 auto;
+    background-color: #fff;
+    width:450px;
+    height:450px;
+    border-radius: 30px;
+    padding:80px;
+}
+.login_group{
+    width:228px;
+    margin: 0 auto;
+}
+label{
+    display: inline-block;
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color:#787878;
+    margin:0;
+    padding:0;
+}
+input{
+    padding:5px 10px;
+    width:228px;
+    font-size: 18px;
+    border:0;
+    border-bottom: 3px solid #bdbdbd;
+    margin-bottom: 15px;
+}
+
+button{
+    font-family: 'Pretendard-Regular';
+    margin-top: 10px;
+    width:228px;
+    padding:10px;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    background-color: #e01983;
+    color:#fff;
+    border: 0;
+    cursor: pointer;
+}
+button:nth-child(2){
+    background-color: #feee37;
+    color:#3b1d1e;
+}
+.button_group{
+    margin-top: 3px;
+}
+.button_group button>img{
+    position:relative;
+    top:2px;
+    margin-right:7px;
+}
+.login_find{
+    width:228px;
+    position:relative;
+    text-align: center;
+}
+
+.login_find a{
+    justify-content: center;
+    display: inline-block;
+    padding: 20px 0;
+    color: rgb(52, 52, 52);
+    font-family: 'Pretendard-Regular';
+    font-size: 10pt;
+    letter-spacing: -0.02em;
+}
+.login_find a::after{
+    content: "|";
+    color:#ddd;
+    margin-left: 4px;
+}
+
+.login_find a:last-child::after{
+    content: "";
+}
+.a_group{
+    font-family: 'Pretendard-Regular';
+    display: inline-block;
+    margin: 0 auto;
+    
+}
